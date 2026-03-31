@@ -201,7 +201,7 @@ fn generate_ics(item: &crate::govdata::AirItem) -> String {
     );
 
     let description = format!(
-        "PM2.5: {}\\nPM10: {}\\시/도명: {}\\n구역: {}\\nLast updated: {}",
+        "PM2.5: {}\\nPM10: {}\\n시/도명: {}\\n구역: {}\\n마지막 갱신: {}",
         item.pm25_value, item.pm10_value, item.sido_name, item.station_name, item.data_time
     );
 
